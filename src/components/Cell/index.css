@@ -1,0 +1,24 @@
+.Cell-container {
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+  }
+  
+  .Cell-active {
+    background-color: rgb(233, 64, 52);
+  }
+  
+  .Cell-inactive {
+    background-color: rgb(255, 196, 3);
+  }
+
+  /* Change The Color Of One Cell
+  The main idea behind of changing the color is that you add or 
+  remove a class.
+  
+  <div class="cell"></div>
+  If we want to change the color, we could for example:
+  
+  <div class="cell active"></div>
+  In your CSS select the active class to set a different 
+  background color. */
